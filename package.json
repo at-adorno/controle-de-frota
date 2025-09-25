@@ -1,0 +1,20 @@
+{
+  "name": "controle-de-frota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at-adorno/controle-de-frota.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/at-adorno/controle-de-frota/issues"
+  },
+  "homepage": "https://github.com/at-adorno/controle-de-frota#readme"
+}
