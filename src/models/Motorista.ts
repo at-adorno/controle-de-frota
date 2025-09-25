@@ -1,4 +1,4 @@
-class Motorista {
+export class Motorista {
     private nome: string;
     private readonly cpf: string;
     private readonly cnh: string;

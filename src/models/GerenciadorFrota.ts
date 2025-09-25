@@ -1,4 +1,8 @@
-class GerenciadorFrota {
+import { Motorista } from './Motorista'
+import { Veiculo } from './Veiculo'
+
+
+export class GerenciadorFrota {
     private veiculos: Veiculo[];
     private motoristas: Motorista[];
 
