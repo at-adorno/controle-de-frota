@@ -24,4 +24,8 @@ export class Motorista {
     public dirigir(): void {
         console.log(`Motorista ${this.nome} está dirigindo.`);
     }
+
+    public obterDescricao(): string {
+        return `Motorista: Nome ${this.nome}, CPF ${this.cpf}, CNH ${this.cnh}`;
+    }
 }

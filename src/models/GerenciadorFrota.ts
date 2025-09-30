@@ -25,6 +25,10 @@ export class GerenciadorFrota {
         });
     }
 
+    public listarMotoristas(): string[] {
+        return this.motoristas.map((motorista) => motorista.obterDescricao());
+    }
+
     public atribuirMotorista(veiculo: Veiculo, motorista: Motorista): void {
         if (this.veiculos.includes(veiculo) && this.motoristas.includes(motorista)) {
             console.log(`Motorista ${motorista.getNome()} atribuído ao veículo ${veiculo.obterDescricao()}.`);
