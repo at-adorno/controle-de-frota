@@ -1,6 +1,6 @@
 import { Motorista } from './models/Motorista'
 import { Veiculo } from './models/Veiculo'
-import { GerenciadorFrota } from './models/GerenciadorFrota'
+import { GerenciadorFrota } from './services/GerenciadorFrota'
 
 const gerenciador = new GerenciadorFrota();
 

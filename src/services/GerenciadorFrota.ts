@@ -1,5 +1,5 @@
-import { Motorista } from './Motorista'
-import { Veiculo } from './Veiculo'
+import { Motorista } from '../models/Motorista'
+import { Veiculo } from '../models/Veiculo'
 
 
 export class GerenciadorFrota {
