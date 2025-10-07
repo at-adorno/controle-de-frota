@@ -56,4 +56,4 @@ gerenciador.adicionarMotorista(motorista1);
 
 ## Autor
 
-Projeto desenvolvido por at-adorno.
+Projeto desenvolvido por at-adorno e diciane38.
